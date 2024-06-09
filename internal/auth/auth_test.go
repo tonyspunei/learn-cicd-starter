@@ -26,7 +26,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			name:           "Valid Authorization Header",
 			authHeader:     "ApiKey abcdef12345",
-			expectedAPIKey: "abcdef1234",
+			expectedAPIKey: "abcdef12345",
 			expectedError:  nil,
 		},
 	}
